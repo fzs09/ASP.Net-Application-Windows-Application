@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2012\Projects\statemanagement\statemanagement\obj\Debug\statemanagement.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\statemanagement\statemanagement\bin\statemanagement.dll
+c:\users\administrator\documents\visual studio 2012\Projects\statemanagement\statemanagement\bin\statemanagement.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\statemanagement\statemanagement\obj\Debug\statemanagement.dll
+c:\users\administrator\documents\visual studio 2012\Projects\statemanagement\statemanagement\obj\Debug\statemanagement.pdb

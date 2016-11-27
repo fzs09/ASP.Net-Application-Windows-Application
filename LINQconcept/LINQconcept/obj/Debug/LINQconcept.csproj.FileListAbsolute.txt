@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2012\Projects\LINQconcept\LINQconcept\bin\LINQconcept.dll
+c:\users\administrator\documents\visual studio 2012\Projects\LINQconcept\LINQconcept\bin\LINQconcept.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\LINQconcept\LINQconcept\obj\Debug\LINQconcept.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\LINQconcept\LINQconcept\obj\Debug\LINQconcept.dll
+c:\users\administrator\documents\visual studio 2012\Projects\LINQconcept\LINQconcept\obj\Debug\LINQconcept.pdb

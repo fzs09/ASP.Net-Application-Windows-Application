@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2012\Projects\myAspProject\myAspProject\bin\myAspProject.dll
+c:\users\administrator\documents\visual studio 2012\Projects\myAspProject\myAspProject\bin\myAspProject.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\myAspProject\myAspProject\obj\Debug\myAspProject.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\myAspProject\myAspProject\obj\Debug\myAspProject.dll
+c:\users\administrator\documents\visual studio 2012\Projects\myAspProject\myAspProject\obj\Debug\myAspProject.pdb

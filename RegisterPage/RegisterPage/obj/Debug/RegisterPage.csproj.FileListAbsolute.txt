@@ -1,0 +1,10 @@
+c:\users\administrator\documents\visual studio 2012\Projects\RegisterPage\RegisterPage\bin\Debug\RegisterPage.exe.config
+c:\users\administrator\documents\visual studio 2012\Projects\RegisterPage\RegisterPage\bin\Debug\RegisterPage.exe
+c:\users\administrator\documents\visual studio 2012\Projects\RegisterPage\RegisterPage\bin\Debug\RegisterPage.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\RegisterPage\RegisterPage\obj\Debug\RegisterPage.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\RegisterPage\RegisterPage\obj\Debug\RegisterPage.Form1.resources
+c:\users\administrator\documents\visual studio 2012\Projects\RegisterPage\RegisterPage\obj\Debug\RegisterPage.LogInPage.resources
+c:\users\administrator\documents\visual studio 2012\Projects\RegisterPage\RegisterPage\obj\Debug\RegisterPage.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2012\Projects\RegisterPage\RegisterPage\obj\Debug\RegisterPage.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2012\Projects\RegisterPage\RegisterPage\obj\Debug\RegisterPage.exe
+c:\users\administrator\documents\visual studio 2012\Projects\RegisterPage\RegisterPage\obj\Debug\RegisterPage.pdb

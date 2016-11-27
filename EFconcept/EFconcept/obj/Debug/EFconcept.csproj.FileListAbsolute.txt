@@ -1,0 +1,7 @@
+c:\users\administrator\documents\visual studio 2012\Projects\EFconcept\EFconcept\bin\EFconcept.dll
+c:\users\administrator\documents\visual studio 2012\Projects\EFconcept\EFconcept\bin\EFconcept.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\EFconcept\EFconcept\bin\EntityFramework.dll
+c:\users\administrator\documents\visual studio 2012\Projects\EFconcept\EFconcept\bin\EntityFramework.xml
+c:\users\administrator\documents\visual studio 2012\Projects\EFconcept\EFconcept\obj\Debug\EFconcept.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\EFconcept\EFconcept\obj\Debug\EFconcept.dll
+c:\users\administrator\documents\visual studio 2012\Projects\EFconcept\EFconcept\obj\Debug\EFconcept.pdb

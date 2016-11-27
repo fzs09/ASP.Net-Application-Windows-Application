@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\homeWork_1\homeWork_1\bin\homeWork_1.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\homeWork_1\homeWork_1\bin\homeWork_1.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\homeWork_1\homeWork_1\obj\Debug\homeWork_1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\homeWork_1\homeWork_1\obj\Debug\homeWork_1.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\homeWork_1\homeWork_1\obj\Debug\homeWork_1.pdb

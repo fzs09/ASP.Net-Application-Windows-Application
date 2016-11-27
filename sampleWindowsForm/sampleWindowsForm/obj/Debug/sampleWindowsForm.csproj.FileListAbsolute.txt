@@ -1,0 +1,10 @@
+c:\users\administrator\documents\visual studio 2012\Projects\sampleWindowsForm\sampleWindowsForm\bin\Debug\sampleWindowsForm.exe.config
+c:\users\administrator\documents\visual studio 2012\Projects\sampleWindowsForm\sampleWindowsForm\bin\Debug\sampleWindowsForm.exe
+c:\users\administrator\documents\visual studio 2012\Projects\sampleWindowsForm\sampleWindowsForm\bin\Debug\sampleWindowsForm.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\sampleWindowsForm\sampleWindowsForm\obj\Debug\sampleWindowsForm.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\sampleWindowsForm\sampleWindowsForm\obj\Debug\sampleWindowsForm.Form1.resources
+c:\users\administrator\documents\visual studio 2012\Projects\sampleWindowsForm\sampleWindowsForm\obj\Debug\sampleWindowsForm.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2012\Projects\sampleWindowsForm\sampleWindowsForm\obj\Debug\sampleWindowsForm.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2012\Projects\sampleWindowsForm\sampleWindowsForm\obj\Debug\sampleWindowsForm.exe
+c:\users\administrator\documents\visual studio 2012\Projects\sampleWindowsForm\sampleWindowsForm\obj\Debug\sampleWindowsForm.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\sampleWindowsForm\sampleWindowsForm\obj\Debug\sampleWindowsForm.EmployeeDetails.resources

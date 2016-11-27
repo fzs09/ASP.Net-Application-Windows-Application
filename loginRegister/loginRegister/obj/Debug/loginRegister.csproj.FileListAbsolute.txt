@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2012\Projects\loginRegister\loginRegister\bin\loginRegister.dll
+c:\users\administrator\documents\visual studio 2012\Projects\loginRegister\loginRegister\bin\loginRegister.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\loginRegister\loginRegister\obj\Debug\loginRegister.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\loginRegister\loginRegister\obj\Debug\loginRegister.dll
+c:\users\administrator\documents\visual studio 2012\Projects\loginRegister\loginRegister\obj\Debug\loginRegister.pdb

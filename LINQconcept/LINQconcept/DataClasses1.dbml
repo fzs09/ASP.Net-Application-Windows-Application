@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Araf" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=UB40203PC28\SQLEXPRESS;Initial Catalog=Araf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ArafConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EmployeeInfo" Member="EmployeeInfos">
+    <Type Name="EmployeeInfo">
+      <Column Name="Eid" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ename" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Esal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.DeleteEmployeeInfo" Method="DeleteEmployeeInfo">
+    <Parameter Name="eid" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.InsertEmployeeInfo" Method="InsertEmployeeInfo">
+    <Parameter Name="eid" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ename" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="esal" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SelectEmployeeInfo" Method="SelectEmployeeInfo">
+    <ElementType Name="SelectEmployeeInfoResult">
+      <Column Name="Eid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Ename" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Esal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.UpdateEmployeeInfo" Method="UpdateEmployeeInfo">
+    <Parameter Name="eid" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ename" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="esal" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

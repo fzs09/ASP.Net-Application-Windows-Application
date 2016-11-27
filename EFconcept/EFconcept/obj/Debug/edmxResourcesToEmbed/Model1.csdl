@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ArafModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ArafEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Departments" EntityType="ArafModel.Department" />
+    <EntitySet Name="Employees" EntityType="ArafModel.Employee" />
+    <AssociationSet Name="FK__Employee__DeptId__117F9D94" Association="ArafModel.FK__Employee__DeptId__117F9D94">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="Did" />
+    </Key>
+    <Property Name="Did" Type="Int32" Nullable="false" />
+    <Property Name="Dname" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Employees" Relationship="ArafModel.FK__Employee__DeptId__117F9D94" FromRole="Department" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Eid" />
+    </Key>
+    <Property Name="Eid" Type="Int32" Nullable="false" />
+    <Property Name="Ename" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="Esal" Type="Int32" />
+    <Property Name="DeptId" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="ArafModel.FK__Employee__DeptId__117F9D94" FromRole="Employee" ToRole="Department" />
+  </EntityType>
+  <Association Name="FK__Employee__DeptId__117F9D94">
+    <End Role="Department" Type="ArafModel.Department" Multiplicity="0..1" />
+    <End Role="Employee" Type="ArafModel.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="Did" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="DeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

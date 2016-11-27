@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ArafModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ArafModelStoreContainer">
+    <EntitySet Name="Department" EntityType="ArafModel.Store.Department" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Employee" EntityType="ArafModel.Store.Employee" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__Employee__DeptId__117F9D94" Association="ArafModel.Store.FK__Employee__DeptId__117F9D94">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="Did" />
+    </Key>
+    <Property Name="Did" Type="int" Nullable="false" />
+    <Property Name="Dname" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Eid" />
+    </Key>
+    <Property Name="Eid" Type="int" Nullable="false" />
+    <Property Name="Ename" Type="varchar" MaxLength="25" />
+    <Property Name="Esal" Type="int" />
+    <Property Name="DeptId" Type="int" />
+  </EntityType>
+  <Association Name="FK__Employee__DeptId__117F9D94">
+    <End Role="Department" Type="ArafModel.Store.Department" Multiplicity="0..1" />
+    <End Role="Employee" Type="ArafModel.Store.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="Did" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="DeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
